@@ -1,0 +1,122 @@
+OSI Model Layers 
+
+---
+
+What is the OSI Model?
+
+OSI (Open Systems Interconnection) is a conceptual framework that standardizes the functions of a telecommunication or networking system into 7 distinct layers.
+
+Helps in interoperability between different products and software.
+
+Created by ISO (International Organization for Standardization).
+
+
+
+---
+
+The 7 Layers of OSI Model
+
+1. Physical Layer
+
+Deals with physical connection of devices.
+
+Includes cables, switches, NICs, connectors, voltages, and data rates.
+
+Data unit: Bits (0s and 1s).
+
+Example: Ethernet cable, fiber optic cable.
+
+
+
+2. Data Link Layer
+
+Responsible for node-to-node data transfer.
+
+Handles error detection, correction, and framing.
+
+Divided into two sublayers:
+
+MAC (Media Access Control) – Controls how devices access the medium.
+
+LLC (Logical Link Control) – Handles error checking and frame synchronization.
+
+
+Data unit: Frame.
+
+Example: Switch, Ethernet.
+
+
+
+3. Network Layer
+
+Responsible for logical addressing and routing.
+
+Ensures data travels from source to destination across multiple networks.
+
+Protocols: IP (IPv4/IPv6), ICMP.
+
+Data unit: Packet.
+
+Example: Router.
+
+
+
+4. Transport Layer
+
+Ensures end-to-end communication between devices.
+
+Handles segmentation, reassembly, and flow control.
+
+Protocols: TCP, UDP.
+
+Data unit: Segment (TCP) / Datagram (UDP).
+
+
+
+5. Session Layer
+
+Manages sessions between applications.
+
+Responsible for session establishment, maintenance, and termination.
+
+Example: Session in a video call.
+
+
+
+6. Presentation Layer
+
+Translates data format so that the application layer can understand it.
+
+Handles encryption, compression, encoding.
+
+Example: SSL/TLS encryption.
+
+
+
+7. Application Layer
+
+Closest to the user.
+
+Provides network services to applications.
+
+Protocols: HTTP, FTP, SMTP, DNS.
+
+Example: Web browsers, email clients.
+
+
+
+---
+
+Data Encapsulation and Decapsulation
+
+Encapsulation: Wrapping data with protocol information as it moves down the OSI layers.
+
+Decapsulation: Removing the added information as it moves up the OSI layers.
+
+---
+
+Key Points
+
+Each layer provides services to the layer above it and uses the services of the layer below it.
+
+OSI model helps developers and network engineers troubleshoot easily.
