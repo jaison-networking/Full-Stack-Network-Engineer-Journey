@@ -1,0 +1,63 @@
+# Day 1: Introduction to Networking & OSI Model
+
+## 📌 What is a Computer Network?
+A **computer network** is a collection of two or more connected devices that share resources and exchange data using communication protocols.
+
+### **Why do we need networks?**
+- **Resource Sharing:** Printers, storage, internet.
+- **Data Sharing:** Emails, files, media.
+- **Scalability:** Easily add devices.
+- **Cost Efficiency:** Shared infrastructure.
+
+---
+
+## 🌐 Types of Networks
+| Network Type | Coverage Area      | Example |
+|-------------|--------------------|---------|
+|   LAN       | Local Area (Small) | Home, Office |
+|   MAN       | City-wide          | Cable TV network |
+|   WAN       | Country/Globe      | Internet |
+|   PAN       | Personal Area      | Bluetooth |
+
+---
+
+## 🔗 Network Models
+### 1. **Client-Server**
+- Central server provides resources.
+- Example: Banking application servers.
+
+### 2. **Peer-to-Peer (P2P)**
+- No central server, devices share equally.
+- Example: Torrent file sharing.
+
+---
+
+## 📚 OSI Model Overview
+The **OSI (Open Systems Interconnection)** model standardizes how data moves across a network.  
+It has **7 layers**, each with a specific function.
+
+### Why OSI Model?
+- Provides standard communication.
+- Helps troubleshoot easily.
+- Vendor-neutral reference model.
+
+---
+
+### 🏗 OSI Model Layers
+|     Layer       |        Function         | Example Protocols |
+|-----------------|-------------------------|-------------------|
+| 7. Application  | User Interface          | HTTP, FTP, SMTP   |
+| 6. Presentation | Data Formatting         | SSL, JPEG         |
+| 5. Session      | Session Management      | NetBIOS           |
+|4. Transport     | End-to-End Delivery     | TCP, UDP          |
+| 3. Network      | Routing & IP Addressing | IP, ICMP          |
+| 2. Data Link    | Framing & MAC Address   | Ethernet, PPP     |
+| 1. Physical     | Hardware Transmission   | Cables, Hubs      |
+
+---
+
+## 🔍 Real-World Analogy
+- **Application Layer:** Like writing a letter in English (user interacts).
+- **Transport Layer:** Like choosing Courier vs Regular Post (speed/reliability).
+- **Physical Layer:** The actual road on which the postal truck travels.
+ 
