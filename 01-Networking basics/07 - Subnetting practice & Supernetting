@@ -1,0 +1,67 @@
+IP Subnetting Practice and Supernetting
+
+1. Subnetting Basics
+
+Review what subnetting is: dividing a large network into smaller, more manageable networks.
+
+Understand the relationship between IP address, subnet mask, and number of hosts.
+
+
+
+2. Subnetting Examples
+
+Example 1:
+IP: 192.168.1.0/24
+Requirement: 4 subnets
+→ Borrow 2 bits → New mask: /26
+→ Each subnet has 64 addresses (62 usable).
+
+Example 2:
+IP: 10.0.0.0/16
+Requirement: 200 subnets
+→ Borrow 8 bits → New mask: /24
+→ Each subnet has 256 addresses (254 usable).
+
+
+
+3. Shortcut Tricks for Subnetting
+
+Formula:
+Number of subnets = 2^n (where n = borrowed bits).
+Hosts per subnet = 2^h – 2 (where h = remaining host bits).
+
+Use block size method: Subnet increment = 256 – subnet mask value.
+
+
+Example:
+Mask: 255.255.255.192 → Increment = 64 → Subnets: 0, 64, 128, 192.
+
+
+4. Supernetting (Route Aggregation)
+
+Opposite of subnetting. Combine multiple small networks into one larger network.
+
+Example:
+Networks: 192.168.0.0/24, 192.168.1.0/24, 192.168.2.0/24, 192.168.3.0/24
+Supernet: 192.168.0.0/22
+
+
+
+5. Hands-On Practice (Packet Tracer or Paper)
+
+Design a network for a company with:
+• HR – needs 50 hosts
+• IT – needs 30 hosts
+• Sales – needs 10 hosts
+
+Allocate subnets efficiently.
+
+
+
+6. Summary
+
+Subnetting = divide networks.
+
+Supernetting = combine networks.
+
+Always calculate subnets based on host requirement.
