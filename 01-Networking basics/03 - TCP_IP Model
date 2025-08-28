@@ -1,0 +1,87 @@
+ TCP/IP Model
+
+What is TCP/IP Model?
+
+TCP/IP (Transmission Control Protocol / Internet Protocol) is the practical model used for the Internet.
+
+It is simpler than OSI, with 4 layers instead of 7.
+
+Developed by DARPA to standardize communication over the Internet.
+
+
+TCP/IP Model Layers
+
+1. Application Layer
+
+
+
+Combines OSI’s Application, Presentation, and Session layers.
+
+Provides network services directly to applications.
+
+Protocols: HTTP/HTTPS (web browsing), FTP (file transfer), SMTP/POP3 (email), DNS (domain name resolution).
+
+
+2. Transport Layer
+
+
+
+Ensures end-to-end communication between devices.
+
+Responsibilities: segmentation of data, reliability (error checking, retransmission).
+
+Protocols: TCP (reliable, connection-oriented), UDP (fast, connectionless).
+
+
+3. Internet Layer
+
+
+
+Handles logical addressing and routing across networks.
+
+Responsible for delivering packets from source to destination.
+
+Protocols: IP (IPv4/IPv6), ICMP (error messages and diagnostics), ARP (resolving IP to MAC addresses).
+
+
+4. Network Access / Link Layer
+
+
+
+Handles physical delivery of data over network media.
+
+Includes OSI’s Data Link + Physical layers.
+
+Devices: NICs, switches, hubs.
+
+Protocols: Ethernet, Wi-Fi, PPP.
+
+
+TCP/IP vs OSI Model
+
+Feature	              TCP/IP Model	         OSI Model
+
+Layers	              4 	                   7
+Type	                Practical/Internet	   Theoretical
+Function Mapping    	Combined layers	       Each layer separate
+Use	                  Internet protocols	   Teaching/Reference
+
+
+Real-World Analogy Sending a letter via courier service:
+
+Application Layer: Writing the letter.
+
+Transport Layer: Choosing standard courier or express.
+
+Internet Layer: Courier determines the route.
+
+Network Access Layer: Truck or transport vehicle carries it physically.
+
+
+Key Points
+
+TCP/IP is used in real-world networks; OSI is a reference model.
+
+TCP/IP is simpler and more practical than OSI.
+
+Every internet communication follows TCP/IP model layers.
