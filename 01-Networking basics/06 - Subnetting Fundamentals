@@ -1,0 +1,78 @@
+Subnetting Fundamentals
+
+What is Subnetting?
+
+Subnetting is the process of dividing a large network into smaller, manageable subnetworks (subnets).
+
+Helps in efficient IP address usage, reduces network congestion, and improves security.
+
+
+Why Subnetting Matters
+
+Large networks can become slow and difficult to manage.
+
+Subnets allow better traffic control and isolation of network segments.
+
+Essential for enterprise networks.
+
+
+Subnet Mask
+
+A subnet mask separates the network portion and host portion of an IP address.
+
+Example:
+
+IP: 192.168.1.10
+
+Subnet Mask: 255.255.255.0
+
+Network: 192.168.1.0
+
+Host range: 192.168.1.1 – 192.168.1.254
+
+
+
+CIDR (Classless Inter-Domain Routing)
+
+A modern method to represent subnet masks using a slash notation.
+
+Example: 192.168.1.0/24
+
+“/24” means 24 bits are for the network, remaining 8 bits for hosts.
+
+
+
+Subnetting Steps (Basic Method)
+
+1. Determine number of subnets required.
+
+
+2. Determine number of hosts per subnet.
+
+
+3. Calculate new subnet mask.
+
+
+4. Assign network addresses and broadcast addresses.
+
+
+5. Verify host ranges.
+
+
+
+Real-World Analogy
+
+Think of a large apartment building as a network.
+
+Each floor is a subnet.
+
+Each apartment (host) can communicate easily within the floor, but traffic between floors is controlled.
+
+
+Key Points
+
+Subnetting prevents IP wastage and improves network performance.
+
+Learn to calculate subnets, host ranges, and broadcast addresses.
+
+CIDR allows flexible subnetting, replacing rigid class-based addressing.
