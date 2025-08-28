@@ -1,0 +1,102 @@
+Networking Devices and Their Roles
+
+What are Network Devices?
+
+Network devices are hardware components that help create, maintain, and secure a network.
+
+They ensure communication between devices and provide connectivity to external networks like the Internet.
+
+
+Types of Network Devices
+
+1. Hub
+
+
+
+Basic device that connects multiple computers in a LAN.
+
+Broadcasts data to all connected devices.
+
+Drawbacks: No intelligence, can cause network congestion.
+
+Usage today: Rare, mostly replaced by switches.
+
+
+2. Switch
+
+
+
+Connects devices in a LAN and uses MAC addresses to forward data.
+
+Directs data only to the intended device.
+
+Advantages: Reduces congestion, improves performance.
+
+Types:
+
+Unmanaged Switch: Plug-and-play, no configuration.
+
+Managed Switch: Configurable for VLANs, security, etc.
+
+
+
+3. Router
+
+
+
+Connects different networks (e.g., LAN to Internet).
+
+Uses IP addresses to forward packets.
+
+Responsible for routing traffic between networks.
+
+Protocols: RIP, OSPF, BGP (for enterprise networks).
+
+
+4. Access Point (AP)
+
+
+
+Provides wireless connectivity within a network.
+
+Connects Wi-Fi devices to the wired LAN.
+
+Used in homes, offices, public hotspots.
+
+
+5. Modem
+
+
+
+Converts digital signals to analog for transmission over telephone lines and vice versa.
+
+Essential for DSL or cable Internet connections.
+
+
+6. Firewall
+
+
+
+Monitors and controls network traffic to protect the network from threats.
+
+Types: Hardware firewall, software firewall.
+
+Provides security for internal networks.
+
+
+Real-World Examples
+
+Home Network: Router connects to ISP, switch connects wired devices, access point provides Wi-Fi, firewall built into router.
+
+Enterprise Network: Multiple switches for departments, routers for WAN, dedicated hardware firewall for security.
+
+
+Key Points
+
+Hubs broadcast to all devices; switches forward intelligently.
+
+Routers operate at Layer 3 (Network Layer).
+
+Switches operate at Layer 2 (Data Link Layer).
+
+Firewalls enhance network security.
