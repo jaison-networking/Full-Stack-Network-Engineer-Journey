@@ -1,0 +1,52 @@
+Routing Basics (Static & Dynamic)
+
+Topics to Learn:
+
+1. What is Routing?
+
+Process of selecting the best path for data packets to travel from source to destination.
+
+Routers make forwarding decisions based on routing tables.
+
+
+
+2. Types of Routing:
+
+Static Routing
+
+Manually configured by network admin.
+
+Example: Setting a fixed path for data to go from Router A → Router B → Router C.
+
+Advantages: Simple, predictable.
+
+Disadvantages: Not scalable, difficult in large networks.
+
+
+Dynamic Routing
+
+Routers automatically exchange information using routing protocols.
+
+Example: OSPF, RIP, EIGRP, BGP.
+
+Advantages: Adapts to network changes automatically.
+
+Disadvantages: More complex, consumes bandwidth.
+
+
+
+
+3. Routing Table:
+
+Contains network destinations and next-hop information.
+
+Built manually (static) or automatically (dynamic).
+
+
+
+
+Real-World Example:
+
+Static routing is like giving Google Maps a fixed route you must always follow, even if traffic changes.
+
+Dynamic routing is like letting Google Maps auto-update and choose the fastest route based on traffic.
